@@ -5,8 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>변수</title>
+
+    <style>
+        .box{
+            font-style: italic;
+        }
+        h1{
+            color: red;
+        }
+    </style>
+
+    <script>
+
+        // var a = 1;
+        /* =>변수는 무언가의 값을 저장할수 있음
+        =>무언가의 값은 함수,변수,숫자,문자,불리언(참 거짓) 등등.....
+        =>저장한 변수를 이용하여 연산이나 변경 등을 할수있음 */
+
+        /* 선택자.명령어(); */
+        // console.log(a + 1);
+        // =>브라우저 검사창에 console을 이용하여 테스트 목적으로 값을 확인할수있음
+
+        // var b = '문자';
+        // =>문자는 반드시 따옴표 안쪽으로 작성을 해줘야됨 
+        // console.log(b + (1 + 1));
+        /* =>문자와 숫자는 연산을 할수 없기때문에 그냥 붙어서 출력됨 
+        =>이때 사용하는 +는 연결연산자 라고함  */
+
+        // *자바스크립트 타입 
+        // 1.숫자(number)
+        // 2.문자(string)
+        // 3.불리언(boolean 참,거짓)
+
+        // 콘솔에 let's 문자 찍어보기 
+        /* var a = "let's"
+        console.log(a) */
+
+        /* var a = "오늘은";
+        var b = "수요일 날짜는";
+        var c = 20 + 8; */
+
+        // console.log(a + b + c + '일')
+        /* document.write(a + b + c + '일') */
+        // =>브라우저창에 작성한 내용을 표현해줌
+
+        /* document.write('<h1 class="box">'+ c + '</h1>') */
+
+        // 문제 
+        // =>변수를 활용하여 브라우창에 a + b = 5 라고 찍히게 작성
+        var a = 1156156;
+        var b = 7;
+        var c = a + b;
+        var d = 'a+b='
+
+        // document.write('a+b=' + (a+b))
+        // document.write('a+b=5')
+        /* document.write(' a + b =' + c)  */
+        /* document.write('a' + '+' + 'b' + '=' + (a+b)) */
+        // document.write(d + (a+b))
+
+        document.write('a + b =' + (a + b))
+
+
+    </script>
+
 </head>
 <body>
-    
+
 </body>
 </html>
